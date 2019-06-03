@@ -12,6 +12,8 @@
 		A2085C8222A0E89600845ABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2085C8022A0E89600845ABD /* Main.storyboard */; };
 		A2085C8422A0E89800845ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2085C8322A0E89800845ABD /* Assets.xcassets */; };
 		A2085C8722A0E89800845ABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2085C8522A0E89800845ABD /* LaunchScreen.storyboard */; };
+		A2085C8F22A0E93B00845ABD /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2085C8E22A0E93B00845ABD /* SendViewController.swift */; };
+		A2085C9122A1082000845ABD /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2085C9022A1082000845ABD /* Custom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A2085C8322A0E89800845ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2085C8622A0E89800845ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2085C8822A0E89800845ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2085C8E22A0E93B00845ABD /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
+		A2085C9022A1082000845ABD /* Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				A2085C8322A0E89800845ABD /* Assets.xcassets */,
 				A2085C8522A0E89800845ABD /* LaunchScreen.storyboard */,
 				A2085C8822A0E89800845ABD /* Info.plist */,
+				A2085C8E22A0E93B00845ABD /* SendViewController.swift */,
+				A2085C9022A1082000845ABD /* Custom.swift */,
 			);
 			path = Option2;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				A2085C7F22A0E89600845ABD /* ViewController.swift in Sources */,
 				A2085C7D22A0E89600845ABD /* AppDelegate.swift in Sources */,
+				A2085C9122A1082000845ABD /* Custom.swift in Sources */,
+				A2085C8F22A0E93B00845ABD /* SendViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +290,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RY7UU9C96T;
 				INFOPLIST_FILE = Option2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +300,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Option2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,7 +310,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RY7UU9C96T;
 				INFOPLIST_FILE = Option2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Option2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
